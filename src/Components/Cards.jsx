@@ -5,6 +5,7 @@ function Card(props) {
     <>
       <div>
         <h1>{props.name}</h1>
+        <img src={props.img} alt='nature-img' />
         <p>{props.tel}</p>
         <p>{props.email}</p>
         <p>{props.class}</p>
